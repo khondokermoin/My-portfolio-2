@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  color: #000;
+  position: relative;
+}
+.margin {
+  margin-bottom: 30px;
+}
+h3 {
+  color: #000;
+  position: relative;
+  letter-spacing: 0.4rem;
+  font-size: 28px;
+}
+
+.top-banner {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.name {
+  color: #ff0000;
+  letter-spacing: 0.8rem;
+}
+
+.left-width {
+  width: 100%;
+  float: left;
+  padding: 5%;
+}
+.right-width img {
+  width: 80%;
+  justify-content: center;
+  padding: 5%;
+}
+
+.color {
+  position: absolute;
+  filter: blur(150px);
+}
+.color:nth-child(1) {
+  background: #fc71b6;
+  width: 600px;
+  height: 600px;
+  top: -350px;
+}
+.color:nth-child(2) {
+  background: #3ddbff;
+  width: 500px;
+  height: 200px;
+  bottom: 0px;
+  left: 100px;
+}
+.color:nth-child(3) {
+  background: #fffd87;
+  width: 300px;
+  height: 300px;
+  bottom: 150px;
+  right: 0px;
+}
+/* .top-banner {
+  /* height: 100vh;
+  width: 100%; */
+/* background-image: url(./img/background-2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  opacity: calc(0.08); */
+
+/* 
+ 
+  
+  position: relative; */
+/* color: #fff; */
+/* */
+
+/* section {
+  height: 100vh;
+} */
+
+.first-dtil {
+  line-height: 1.8rem;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+
+button {
+  display: inline-block;
+
+  background: linear-gradient(45deg, #87adfe, #ff77cd);
+  border-radius: 6px;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+  .contact {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .right-width {
+    width: 100%;
+    justify-content: center;
+  }
+  .margin {
+    margin-bottom: 25px;
+  }
+  .first-dtil {
+    margin-top: 20px;
+  }
+}
+.top-banner {
+  background-image: url("./img/top-banner.png");
+  background-repeat: no-repeat;
+}
+section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+
+.link-button {
+  opacity: 0.8;
+}
+.link-button:hover {
+  opacity: 5;
+  color: #000;
+  font-weight: bolder;
+}
